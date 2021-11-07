@@ -21,7 +21,7 @@ function addInCartMessage(title, price) {
     message = message + 'теперь в корзине!'
     // выведите переменную message в консоль
     console.log(message) 
-    // Конец решения задания №1.1.
+    // Конец решения задания №1.1. 
 
     return message;
 }
@@ -54,7 +54,7 @@ function addInCartSumChange(sum, delta) {
     let newSumText =  String(newSum) + ' ₽'
     // замените склеивание, используемое в newSum Text на шаблонную строку
      newSumText = `${newSum} ₽`
-    // Конец решения задания №1.3.
+    // Конец решения задания №1.3. done
 
     return newSumText;
 }
