@@ -49,7 +49,7 @@ function sendRequest(count, name, phone, address, goods, sum) {
         data.goods.push(goods[i].title)}
 
     
-    return (jsonData);
+    return (jsonData) ;
 }*/
 function sendRequest(name, phone, address, goods, sum) {
     let data = {client: "Иван +7(987)65-43-210", 
