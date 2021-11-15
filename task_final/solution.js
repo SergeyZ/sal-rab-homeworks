@@ -60,17 +60,19 @@ function sendRequest(name, phone, address, goods, sum) {
     data.client = name + ' ' + phone;
     data.order.address = `ул. ${address.street}, дом ${address.house}, ${address.entrance} подъезд, ${address.floor} этаж, кв ${address.flat}`;
     data.order.sum = sum;
-    data.goods[0].title = goods;
-    data.goods[0].count = goods.length;
-
+    
     let countOfGoods = goods.length;
-    let jsonData = JSON.stringify(data); //вывод строки - преобразование в строку массива данных
+    
 
     for (let i = 0; i <= countOfGoods; i += 1) {
         // goods.push(data.goods[0].title);
-        goods.push(data.goods[0].title);
-      
+        data.goods.push(goods[i]), goods.length);
     }
+
+    let jsonData = JSON.stringify(data);
+
+
+
 
    // let jsonData = JSON.stringify(data); //вывод строки - преобразование в строку массива данных
 
