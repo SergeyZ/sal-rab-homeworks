@@ -119,7 +119,7 @@ function sendRequest(name, phone, address, goods, sum) {
 
 // задаем счетчик цикла, равный количеству записей массива Goods из параметра функции
    for (let i = 0; i <= countOfGoods; i += 1) {
-       // goods.push(data.goods[0].title);
+
 //собираем объект data
 
 //Свойство (объекта data) client должно содержать строку - имя клиента и телефон, разделенные пробелом.
