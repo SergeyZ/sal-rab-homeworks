@@ -142,7 +142,7 @@ data.order.sum = sum;
 //- price - число, стоимость одной единицы товара.
 //- sum - число, стоимость заказа с учетом скидок и доставки.
 // То пушим таким образом в наш объект data
-data.goods.push(goods[i].title, goods[i].count)
+data.goods.push(`${goods[i].title} ${goods[i].count}`)
 
    }
 //Ну а тут преобразуем в строку формата JSON
