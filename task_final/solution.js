@@ -124,7 +124,7 @@ data.order = `ул. ${address.street}, дом ${address.house}, ${address.entran
 
 
 //Добавляем в массив data.goods название товара и сумму из параметра объекта функции goods строку "Пица, 500":
-data.goods.push(goods.title+','+goods.sum);
+data.goods.push(goods.title+', '+goods.sum);
    }
 //Ну а тут преобразуем в строку формата JSON
 //склеиваем строку и то что записалось в data
