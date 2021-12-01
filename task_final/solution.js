@@ -128,7 +128,7 @@ data.goods.push(goods.title+', '+goods.sum);
    }
 //Ну а тут преобразуем в строку формата JSON
 //склеиваем строку и то что записалось в data
-   let jsonData = JSON.stringify(Client + data);
+   let jsonData = JSON.stringify(Client +', '+ data);
 
    return jsonData;
 }
