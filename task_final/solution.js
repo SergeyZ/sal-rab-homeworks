@@ -84,8 +84,8 @@ function sendRequest(name, phone, address, goods, sum) {
 }
 */
 
-title:"Название товара", count:0
-address:"адрес", sum:0
+//title:"Название товара", count:0
+//address:"адрес", sum:0
 
 
 function sendRequest(name, phone, address, goods, sum) {
